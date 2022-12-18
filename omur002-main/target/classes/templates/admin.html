@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Ala Too</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link th:href="@{/css/home.css}" rel="stylesheet"/>
+
+</head>
+
+<body >
+
+<header class="tm-header">
+  <img class="tm-logo" src="/img/logo.png" alt="">
+  <nav class="tm-nav" >
+    <div>
+      <ul>
+        <li class="tm-list"><a href="/home">Home</a></li>
+        <li class="tm-list"><a href="/place">Place</a></li>
+        <li class="tm-list"><a href="/edit_place">Edit_Place</a></li>
+        <li class="tm-list"><a href="/logout">Logout</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<section class="tm-imgslider">
+  <div class="slider single"></div>
+  <div class="tm-slider"><img class="tm-sliderimage" src="/img/alatoobooking%20-img.jpg" alt=""></div>
+      <img src="/img/back.png" class="left">
+      <img src="/img/next.png" class="right">
+  </div>
+
+</section>
+
+
+<section class="slider room flex">
+
+  <div class="tm-rooms">
+    <img  src="/img/hol.png">
+    <a href="/place"> <p class="s">Holle</p> </a>
+
+  </div>
+  <div class="tm-rooms">
+    <img  src="/img/sport.png">
+    <a href="/place"> <p class="s">Sport</p></a>
+
+  </div>
+  <div class="tm-rooms">
+    <img  src="/img/lab.png">
+    <a href="/place">  <p>Computer Lab</p></a>
+
+  </div>
+
+</section>
+
+
+<section class="tm-reviewsection">
+
+
+  <div class="tm-revcon">
+    <p class="b"> Reviews</p>
+    <div class="tm-stars">
+      <img src="/img/star.png">
+      <img src="/img/star.png">
+      <img src="/img/star.png">
+      <img src="/img/star.png">
+      <img src="/img/star.png">
+    </div>
+    <div class="tm-rev">
+      <p> Great University, Great place. </p>  <br/>
+      <p> By Avalbekov Omurbek</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="tm-makeres">
+  <div class="tm-res">
+    <div class="tm-resbutton">
+      <a href="/logout"> <p>Make Reservation</p></a>
+    </div>
+  </div>
+</section>
+
+<footer class="tm-footer">
+  <div class="tm-us">
+    <p class="bold">About Us</p>
+    <p>International Ala Too University</p>
+  </div>
+
+  <div class="tm-address">
+    <p class="bold">Address</p>
+    <p>Ankara Street 1/8, Tunguch, Bishkek, Kyrgyz Republic
+      Phone : (996)700355351
+      Email : avlbekovomurbek@gmail.com</p>
+  </div>
+  <br/>
+  <div class="tm-media">
+    <a href="https://www.facebook.com/login/"> <img src="/img/facebook.png"></a>
+    <a href="https://www.instagram.com/avalbekov_kgz/"> <img src="/img/instagram.png"> </a>
+    <a href="https://wa.me/700355351/"> <img src="/img/whatsapp.png"> </a>
+    <a href="https://twitter.com/Avalbekov_kgz">  <img src="/img/twitter.png"> </a>
+
+  </div>
+</footer>
+</body>
+</html>
